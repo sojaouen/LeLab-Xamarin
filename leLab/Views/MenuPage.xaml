@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="leLab.Views.MenuPage"
+    Title="Home"
+    BackgroundColor="Beige">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+        <StackLayout VerticalOptions="Start"
+                     BackgroundColor="#518faa">
+        <Image Source="lab_logo.png" HeightRequest="100" Margin="0,40,0,0"/>
+            <Label Text="LE LAB"
+                   TextColor="White"
+                   FontSize="30" HorizontalTextAlignment="Center"
+                   Margin="30">
+            <Label.FontFamily>
+	            <OnPlatform x:TypeArguments="x:String">
+		            <OnPlatform.iOS>HelveticaNeue-Thin</OnPlatform.iOS>
+		            <OnPlatform.Android>HelveticaNeue-Thin.ttf#HelveticaNeue-Thin</OnPlatform.Android>
+	            </OnPlatform>
+            </Label.FontFamily>
+                </Label>
+            
+        </StackLayout>
+            <Image Source="lab_separator.png"/>
+        <StackLayout Margin="0,20,0,0">
+            <Button Text="Compteur" WidthRequest="120"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="30,0,30,0"
+                    Clicked="CounterButtonClicked"
+                    Style="{StaticResource boutonLabStyle}"
+                    BackgroundColor="Olive"
+                    TextColor="White"
+                    />
+            <Button Text="Page à onglets" WidthRequest="120"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="30,0,30,0"
+                    Clicked="TabsPage_Clicked"
+                    Style="{StaticResource boutonLabStyle}"
+                    BackgroundColor="Olive"
+                    TextColor="White"
+                    />
+            <Button Text="Liste" WidthRequest="120"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="30,0,30,0"
+                    Clicked="ListPage_Clicked"
+                    Style="{StaticResource boutonLabStyle}"
+                    BackgroundColor="Olive"
+                    TextColor="White"
+                    />
+        </StackLayout>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{C9C17D35-511A-4307-9FDF-0EEC9E34EBEC}|Default">
+  <MonoDevelop.Ide.ItemProperties.leLab.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="leLab/MainPage.xaml">
+    <Files>
+      <File FileName="leLab/Views/MenuPage.xaml" Line="51" Column="23" />
+      <File FileName="leLab/Views/CountPage.xaml" />
+      <File FileName="leLab/Views/MenuPage.xaml.cs" />
+      <File FileName="leLab/App.xaml.cs" />
+      <File FileName="leLab/App.xaml" />
+      <File FileName="leLab/Views/TabVoiture.xaml" />
+      <File FileName="leLab/Views/TabVoiture.xaml.cs" />
+      <File FileName="leLab/Views/TabAvion.xaml" />
+      <File FileName="leLab/Views/TabAvion.xaml.cs" />
+      <File FileName="leLab/Views/TabsPage.xaml" />
+      <File FileName="leLab/Views/TabsPage.xaml.cs" />
+      <File FileName="leLab/Views/ListPage.xaml" />
+      <File FileName="leLab/Views/ListPage.xaml.cs" />
+      <File FileName="leLab/Model/Article.cs" Line="26" Column="2" />
+      <File FileName="leLab.iOS/Info.plist" />
+      <File FileName="leLab.Android/Resources/values/styles.xml" />
+      <File FileName="leLab.Android/MainActivity.cs" />
+      <File FileName="leLab.Android/Properties/AssemblyInfo.cs" />
+      <File FileName="leLab.Android/Properties/AndroidManifest.xml" />
+      <File FileName="leLab/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="leLab/MainPage.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="leLab" expanded="True">
+            <Node name="leLab" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="ListPage.xaml" expanded="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.leLab.Android PreferredExecutionTarget="Android.emulator-5554" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
